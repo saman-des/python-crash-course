@@ -1,8 +1,10 @@
+#%%
 # ---------------------------------------------------------
 # HOMEWORK 1: IF / ELSE — Making Decisions 🔀
+#%%
 # ---------------------------------------------------------
 
-
+#%%
 # TASK 1: Temperature Advisor
 # Ask the user to enter the current temperature (as an integer).
 # If temperature > 35  → print "It's very hot! Stay hydrated. 🥵"
@@ -13,6 +15,7 @@
 
 
 
+#%%
 # TASK 2: Even or Odd
 # Ask the user for any whole number.
 # Print whether it is EVEN or ODD.
@@ -22,6 +25,7 @@
 
 
 
+#%%
 # TASK 3: Guess the Number
 # Store a secret number (e.g. 42) in a variable.
 # Ask the user to guess it.
@@ -34,6 +38,7 @@
 
 
 
+#%%
 # ⭐ BONUS CHALLENGE:
 # Ask the user for a word.
 # If the word has more than 8 letters → "That's a long word!"

@@ -1,8 +1,11 @@
+#%%
 # ---------------------------------------------------------
 # HOMEWORK 4: NESTED CONDITIONS 🪆
+#%%
 # ---------------------------------------------------------
 
 
+#%%
 # TASK 1: Concert Ticket Pricing
 # Ask for the user's age and whether they are a member (yes/no).
 # Rules:
@@ -16,6 +19,7 @@
 
 
 
+#%%
 # TASK 2: Login System with Role
 # Store a username ("admin") and password ("pass123") and role ("superuser"),
 # and also a regular user username ("user1"), password ("abc"), role ("viewer").
@@ -28,6 +32,7 @@
 
 
 
+#%%
 # ⭐ BONUS CHALLENGE:
 # Build a simple quiz game.
 # Ask 3 questions. Each correct answer is worth 1 point.

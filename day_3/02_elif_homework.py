@@ -1,8 +1,11 @@
+#%%
 # ---------------------------------------------------------
 # HOMEWORK 2: ELIF — Multiple Choices 🎛️
+#%%
 # ---------------------------------------------------------
 
 
+#%%
 # TASK 1: BMI Calculator
 # BMI formula: bmi = weight / (height * height)
 # Ask the user for weight (kg) and height (m) — use float(input(...))
@@ -16,6 +19,7 @@
 
 
 
+#%%
 # TASK 2: Day Namer
 # Ask the user to enter a day number (1–7).
 # Print the full name of the day:
@@ -26,6 +30,7 @@
 
 
 
+#%%
 # TASK 3: Simple Chatbot
 # Ask the user "How are you feeling today?"
 # If they type "happy"   → "Amazing! Keep smiling 😊"
@@ -39,6 +44,7 @@
 
 
 
+#%%
 # ⭐ BONUS CHALLENGE:
 # Build a simple shopping discount system.
 # Ask the user for their total bill amount.

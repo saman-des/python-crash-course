@@ -1,8 +1,11 @@
+#%%
 # ---------------------------------------------------------
 # HOMEWORK 5: LOOPS — for & while 🔄
+#%%
 # ---------------------------------------------------------
 
 
+#%%
 # TASK 1: Multiplication Table
 # Ask the user for a number.
 # Print its multiplication table from 1 to 10.
@@ -13,6 +16,7 @@
 
 
 
+#%%
 # TASK 2: Sum of Even Numbers
 # Using a for loop and range(), find the sum of all EVEN numbers from 1 to 50.
 # Print the result.
@@ -22,6 +26,7 @@
 
 
 
+#%%
 # TASK 3: Password Retry (while loop)
 # Store a password ("letmein").
 # Give the user 3 attempts to enter the correct password.
@@ -33,6 +38,7 @@
 
 
 
+#%%
 # ⭐ BONUS CHALLENGE:
 # Ask the user to enter numbers one by one (keep asking with a while loop).
 # Stop when they type "done".
