@@ -1,9 +1,11 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 5: break & continue — Controlling Loops 🎮
 # ---------------------------------------------------------
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: break — EXIT THE LOOP IMMEDIATELY
 # ─────────────────────────────────────────────────────────
 # break jumps OUT of the loop right now, no questions asked.
@@ -26,6 +28,7 @@ for fruit in fruits:
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: continue — SKIP THIS ROUND, GO TO THE NEXT
 # ─────────────────────────────────────────────────────────
 # continue skips the REST of the current round and jumps
@@ -43,6 +46,7 @@ for num in numbers:
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: break vs continue — SIDE BY SIDE
 # ─────────────────────────────────────────────────────────
 # break  → "I'm done. EXIT the whole loop."
@@ -64,6 +68,7 @@ for x in data:
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: break IN A WHILE LOOP
 # ─────────────────────────────────────────────────────────
 # break is especially useful with while True: (an intentional
@@ -82,6 +87,7 @@ while True:                    # runs forever... until break!
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 5: PRACTICAL — SEARCH IN A LIST
 # ─────────────────────────────────────────────────────────
 students = ["Alice", "Bob", "Charlie", "Diana", "Eve"]

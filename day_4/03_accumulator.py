@@ -1,4 +1,5 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 3: THE ACCUMULATOR PATTERN 🪣
 # The most important loop pattern: start with a "bucket",
 # fill it up a little each round of the loop!
@@ -6,6 +7,7 @@
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: SUMMING NUMBERS
 # ─────────────────────────────────────────────────────────
 # Pattern: create a variable BEFORE the loop, update it INSIDE.
@@ -23,6 +25,7 @@ print(f"Total: Rs. {total}")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: COUNTING ITEMS THAT MATCH A CONDITION
 # ─────────────────────────────────────────────────────────
 scores = [85, 42, 91, 38, 77, 55, 88, 29, 95, 60]
@@ -38,6 +41,7 @@ print(f"Passing (60+): {passing} out of {len(scores)}")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: FINDING THE MAXIMUM (without using max())
 # ─────────────────────────────────────────────────────────
 # Imagine going through a list and keeping track of the
@@ -55,6 +59,7 @@ print(f"Biggest: {biggest}")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: BUILDING A STRING CHARACTER BY CHARACTER
 # ─────────────────────────────────────────────────────────
 # Strings can be "accumulated" too — start with "", add each piece.
@@ -70,6 +75,7 @@ print(f"Reversed : {reversed_word}")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 5: BUILDING A NEW LIST (filtering)
 # ─────────────────────────────────────────────────────────
 # Keep only the items you want by appending into a new list.
@@ -86,6 +92,7 @@ print(f"High scorers: {high_scorers}")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 6: PUTTING IT ALL TOGETHER — CLASS REPORT
 # ─────────────────────────────────────────────────────────
 student_scores = {

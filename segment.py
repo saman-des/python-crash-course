@@ -4,6 +4,7 @@ import re
 
 def segment_homework(filepath):
     """
+    Script: python segment.py path/to/directory
     Add cell markers (#%%) before each task in a homework file.
     Tasks are identified by patterns like:
     - # TASK n:
@@ -19,9 +20,11 @@ def segment_homework(filepath):
     # Pattern to detect task markers
     task_patterns = [
         r'^#\s*TASK\s+\d+',           # # TASK 1:, # TASK 2:, etc.
+        r'^#\s*SECTION\s+\d+',        # # SECTION 1:, # SECTION 2:, etc.
+        r'^#\s*TOPIC\s+\d+',          # # TOPIC 1:, # TOPIC 2:, etc.
         r'^#\s*⭐\s*',                # # ⭐ BONUS, # ⭐ CHALLENGE
         r'^#\s*BONUS\s*',            # # BONUS CHALLENGE
-        r'^#\s*-{3,}\s*$',           # # --- (separator line)
+        r'^#\s*DAY\s+\d+',            # # DAY 1:, # DAY 2:, etc.
     ]
     
     # Check if line is a task marker
@@ -65,16 +68,17 @@ if __name__ == "__main__":
             print(f"📂 Scanning directory: {directory}")
             
             converted_count = 0
+            script_name = os.path.basename(__file__)
             for filename in sorted(os.listdir(directory)):
-                if filename.endswith("_homework.py"):
+                if filename.endswith(".py") and filename != script_name:
                     filepath = os.path.join(directory, filename)
                     segment_homework(filepath)
                     converted_count += 1
             
             if converted_count == 0:
-                print("❌ No *_homework.py files found in the directory.")
+                print("❌ No .py files found in the directory.")
             else:
-                print(f"✅ Successfully segmented {converted_count} homework file(s)!")
+                print(f"✅ Successfully segmented {converted_count} file(s)!")
         # Check if it's a file
         elif os.path.isfile(target):
             segment_homework(target)
@@ -86,13 +90,14 @@ if __name__ == "__main__":
         print(f"📂 Scanning directory: {directory}")
         
         converted_count = 0
+        script_name = os.path.basename(__file__)
         for filename in sorted(os.listdir(directory)):
-            if filename.endswith("_homework.py"):
+            if filename.endswith(".py") and filename != script_name:
                 filepath = os.path.join(directory, filename)
                 segment_homework(filepath)
                 converted_count += 1
         
         if converted_count == 0:
-            print("❌ No *_homework.py files found.")
+            print("❌ No .py files found.")
         else:
-            print(f"✅ Successfully segmented {converted_count} homework file(s)!")
+            print(f"✅ Successfully segmented {converted_count} file(s)!")

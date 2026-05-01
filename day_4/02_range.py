@@ -1,10 +1,12 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 2: range() — Loop a Specific Number of Times
 # range() generates a sequence of numbers for your loop!
 # ---------------------------------------------------------
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: range(n) — COUNT FROM 0 UP TO (BUT NOT INCLUDING) n
 # ─────────────────────────────────────────────────────────
 # This is the most common form. range(5) gives: 0, 1, 2, 3, 4
@@ -17,6 +19,7 @@ for i in range(5):
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: range(start, stop) — CHOOSE WHERE TO START
 # ─────────────────────────────────────────────────────────
 # range(1, 6) gives: 1, 2, 3, 4, 5
@@ -32,6 +35,7 @@ for i in range(1, 11):
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: range(start, stop, step) — SKIP BY A STEP
 # ─────────────────────────────────────────────────────────
 # range(0, 11, 2) gives: 0, 2, 4, 6, 8, 10  (every 2nd number)
@@ -54,6 +58,7 @@ print()
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: COUNTING DOWN — use a NEGATIVE step
 # ─────────────────────────────────────────────────────────
 print("\n--- Countdown! ---")
@@ -63,6 +68,7 @@ print("Liftoff! 🚀")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 5: USING range() TO INDEX A LIST
 # ─────────────────────────────────────────────────────────
 # Sometimes you need BOTH the index number AND the item.

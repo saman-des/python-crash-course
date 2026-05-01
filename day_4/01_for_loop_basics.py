@@ -1,10 +1,12 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 1: THE FOR LOOP — From Scratch 🔄
 # A loop makes Python repeat code for you automatically!
 # ---------------------------------------------------------
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: THE PROBLEM LOOPS SOLVE
 # ─────────────────────────────────────────────────────────
 # Imagine you want to greet 5 friends. WITHOUT a loop:
@@ -19,6 +21,7 @@ print("Hello, Eve!")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: YOUR FIRST FOR LOOP
 # ─────────────────────────────────────────────────────────
 # Read this out loud: "FOR each name IN this list, do this:"
@@ -33,6 +36,7 @@ for name in friends:
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: UNDERSTANDING THE LOOP VARIABLE
 # ─────────────────────────────────────────────────────────
 # 'name' is called the LOOP VARIABLE.
@@ -53,6 +57,7 @@ for person in friends:           # 'person' instead of 'name'
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: THE INDENTED BLOCK — What goes "inside" the loop
 # ─────────────────────────────────────────────────────────
 # Everything indented under 'for' repeats every round.
@@ -69,6 +74,7 @@ print("All scores reviewed.")         # ← OUTSIDE loop (runs once)
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 5: MULTIPLE STATEMENTS INSIDE THE LOOP
 # ─────────────────────────────────────────────────────────
 # You can have as many lines as you want inside the loop body!

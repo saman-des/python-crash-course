@@ -1,10 +1,12 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 6: NESTED LOOPS — A Loop Inside a Loop 🪆
 # For every round of the OUTER loop, the INNER loop runs completely!
 # ---------------------------------------------------------
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: THE CONCEPT — OUTER × INNER
 # ─────────────────────────────────────────────────────────
 # Think of a clock: the minute hand (inner) goes all the way
@@ -20,6 +22,7 @@ for i in range(1, 4):            # outer: 1, 2, 3
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: MULTIPLICATION TABLE
 # ─────────────────────────────────────────────────────────
 print("--- Multiplication Table (1–5) ---")
@@ -36,6 +39,7 @@ for row in range(1, 6):
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: STAR PATTERNS
 # ─────────────────────────────────────────────────────────
 # A classic nested loop exercise — great for understanding the pattern.
@@ -63,6 +67,7 @@ for i in range(1, rows + 1):
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: REAL USE — COMPARE EVERY PAIR IN A LIST
 # ─────────────────────────────────────────────────────────
 # Find all pairs of students with the same score.

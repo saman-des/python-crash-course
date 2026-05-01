@@ -1,10 +1,12 @@
 # ---------------------------------------------------------
+#%%
 # DAY 4 | TOPIC 4: THE WHILE LOOP — Keep Going Until... 🔁
 # A while loop repeats AS LONG AS a condition stays True!
 # ---------------------------------------------------------
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 1: HOW A WHILE LOOP WORKS
 # ─────────────────────────────────────────────────────────
 #
@@ -35,6 +37,7 @@ print("Liftoff! 🚀")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 2: WHILE LOOP WITH USER INPUT
 # ─────────────────────────────────────────────────────────
 # Perfect when you don't know how many tries the user needs.
@@ -55,6 +58,7 @@ print(f"Correct! You got it in {attempts} attempt(s). 🎉")
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 3: CONTROLLING ATTEMPTS WITH A COUNTER
 # ─────────────────────────────────────────────────────────
 # Combine a while loop with a counter to limit attempts.
@@ -77,6 +81,7 @@ else:
 
 
 # ─────────────────────────────────────────────────────────
+#%%
 # SECTION 4: FLAG VARIABLE — A CLEAN while PATTERN
 # ─────────────────────────────────────────────────────────
 # A flag is a boolean that controls the loop.
